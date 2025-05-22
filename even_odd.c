@@ -1,6 +1,5 @@
 //Check Even or Odd
 #include <stdio.h>
-
 int main() {
     int num;
     printf("Enter a number: ");
