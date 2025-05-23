@@ -1,6 +1,5 @@
 //  Fibonacci Series
 #include <stdio.h>
-
 int main() {
     int n, t1 = 0, t2 = 1, nextTerm;
     printf("Enter number of terms: ");
