@@ -1,8 +1,7 @@
 //  Print Multiplication Table
 #include <stdio.h>
-
 int main() {
-    int num, i;
+    int num, I;
     printf("Enter a number: ");
     scanf("%d", &num);
     for (i = 1; i <= 10; ++i) {
