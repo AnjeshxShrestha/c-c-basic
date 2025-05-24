@@ -6,7 +6,7 @@ int main() {
     printf("Enter a number: ");
     scanf("%d", &n);
     for (i = 1; i <= n; ++i) {
-        fact *= i;
+        fact *= I;
     }
     printf("Factorial of %d = %llu\n", n, fact);
     return 0;
