@@ -1,6 +1,5 @@
 //  Reverse a Number
 #include <stdio.h>
-
 int main() {
     int n, reversed = 0;
     printf("Enter a number: ");
