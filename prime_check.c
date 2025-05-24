@@ -1,6 +1,5 @@
 // Check Prime Number
 #include <stdio.h>
-
 int main() {
     int n, i, isPrime = 1;
     printf("Enter a number: ");
