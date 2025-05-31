@@ -1,4 +1,4 @@
-// Find Maximum of Two Numbers
+// Find Maximum of Two Numberss
 #include <stdio.h>
 int main() {
     int a, b;
