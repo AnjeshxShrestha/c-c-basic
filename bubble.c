@@ -19,3 +19,16 @@ void printArray(int arr[], int n) {
     printf("\n");
 }
 
+int main() {
+    int data[] = {64, 34, 25, 12, 22, 11, 90};
+    int n = sizeof(data)/sizeof(data[0]);
+
+    printf("Original array: ");
+    printArray(data, n);
+
+    bubbleSort(data, n);
+
+    printf("Sorted array: ");
+    printArray(data, n);
+    return 0;
+}
