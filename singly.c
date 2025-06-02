@@ -16,14 +16,12 @@ struct Node* createNode(int data) {
     newNode->next = NULL;
     return newNode;
 }
-
 // Insert at beginning
 void insertAtBeginning(struct Node** head, int data) {
     struct Node* newNode = createNode(data);
     newNode->next = *head;
     *head = newNode;
 }
-
 // Insert at end
 void insertAtEnd(struct Node** head, int data) {
     struct Node* newNode = createNode(data);
@@ -36,7 +34,6 @@ void insertAtEnd(struct Node** head, int data) {
         temp = temp->next;
     temp->next = newNode;
 }
-
 // Delete first occurrence of a value
 void deleteNode(struct Node** head, int key) {
     struct Node *temp = *head, *prev = NULL;
@@ -46,7 +43,6 @@ void deleteNode(struct Node** head, int key) {
         free(temp);
         return;
     }
-
     while (temp != NULL && temp->data != key) {
         prev = temp;
         temp = temp->next;
@@ -54,11 +50,9 @@ void deleteNode(struct Node** head, int key) {
 
     if (temp == NULL)
         return;
-
     prev->next = temp->next;
     free(temp);
 }
-
 // Display the list
 void displayList(struct Node* head) {
     struct Node* temp = head;
