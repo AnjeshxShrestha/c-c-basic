@@ -5,8 +5,7 @@ int main() {
     printf("Enter an operator (+, -, *, /): ");
     scanf("%c", &op);
     printf("Enter two numbers: ");
-    scanf("%lf %lf", &num1, &num2);
-
+    scanf("%lf %lf", &num1, &num2);i
     switch(op) {
         case '+':
             printf("%.2lf + %.2lf = %.2lf\n", num1, num2, num1 + num2);
