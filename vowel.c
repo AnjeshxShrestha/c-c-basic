@@ -11,7 +11,7 @@ int main() {
             ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U') {
             vowels++;
         }
-    }hi my
+    }
     printf("Number of vowels = %d\n", vowels);
     return 0;
 }
