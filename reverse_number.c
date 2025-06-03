@@ -7,7 +7,7 @@ int main() {
     while (n != 0) {
         reversed = reversed * 10 + n % 10;
         n /= 10;
-    }
+    }jiii
     printf("Reversed number = %d\n", reversed);
     return 0;
 }
